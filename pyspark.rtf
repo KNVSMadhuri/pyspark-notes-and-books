@@ -1,0 +1,134 @@
+{\rtf1\ansi\deff3\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f4\fswiss\fprq2\fcharset0 Liberation Sans{\*\falt Arial};}{\f5\froman\fprq0\fcharset128 Consolas;}{\f6\froman\fprq0\fcharset128 Times New Roman;}{\f7\fnil\fprq2\fcharset0 Droid Sans Fallback;}{\f8\fnil\fprq0\fcharset128 Calibri;}{\f9\fnil\fprq0\fcharset128 Times New Roman;}{\f10\fnil\fprq0\fcharset128 Fjalla One;}{\f11\fnil\fprq2\fcharset0 FreeSans;}{\f12\fswiss\fprq0\fcharset128 FreeSans;}{\f13\fnil\fprq0\fcharset128 Consolas;}}
+{\colortbl;\red0\green0\blue0;\red39\green203\blue205;\red0\green0\blue128;\red51\green51\blue51;\red128\green128\blue128;}
+{\stylesheet{\s0\snext0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393 Normal;}
+{\*\cs15\snext15 Default Paragraph Font;}
+{\*\cs16\snext16\cf3\ul\ulc0\langfe255\alang255\lang255 Internet Link;}
+{\s17\sbasedon0\snext18\sb240\sa120\keepn\dbch\af7\dbch\af11\afs28\loch\f4\fs28 Heading;}
+{\s18\sbasedon0\snext18\sl288\slmult1\sb0\sa140 Text Body;}
+{\s19\sbasedon18\snext19\sl288\slmult1\sb0\sa140\dbch\af12 List;}
+{\s20\sbasedon0\snext20\sb120\sa120\noline\i\dbch\af12\afs24\ai\fs24 Caption;}
+{\s21\sbasedon0\snext21\noline\dbch\af12 Index;}
+}{\info{\author chandrashekar j}{\creatim\yr2017\mo1\dy25\hr13\min47}{\revtim\yr2017\mo1\dy25\hr13\min47}{\printim\yr0\mo0\dy0\hr0\min0}{\comment LibreOffice}{\vern67241986}}\deftab720
+\viewscale100
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn12240\pghsxn15840\marglsxn1440\margrsxn1440\margtsxn1440\margbsxn1440\pgdscnxt0 Default Style;}}
+\formshade{\*\pgdscno0}\paperh15840\paperw12240\margl1440\margr1440\margt1440\margb1440\sectd\sbknone\sectunlocked1\pgndec\pgwsxn12240\pghsxn15840\marglsxn1440\margrsxn1440\margtsxn1440\margbsxn1440\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+\pgndec\pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl720\slmult0\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb150\sa150{\kerning1\dbch\af8\langfe1033\dbch\af13\afs57\alang1025\rtlch \ltrch\loch\fs57\lang1033\loch\f5
+Tutorial on how to install apache spark on Windows}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa120{{\field{\*\fldinst HYPERLINK "http://www.ithinkcloud.com/2016/03/05/" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\ul\ulc0\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+5 Mar, 2016}{}}}\i\dbch\af9\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+\~\~}{\i\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+in\~}{{\field{\*\fldinst HYPERLINK "http://www.ithinkcloud.com/category/tutorials/" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\ul\ulc0\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+Tutorials}{\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\dbch\af9\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+\~}{}}}\i\dbch\af9\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+\~}{\i\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+tagged\~}{{\field{\*\fldinst HYPERLINK "http://www.ithinkcloud.com/tags/apache-spark/" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\ul\ulc0\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+apache spark}{\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\dbch\af9\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+\~}{}}}\i\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+/\~}{{\field{\*\fldinst HYPERLINK "http://www.ithinkcloud.com/tags/hadoop/" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\ul\ulc0\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+hadoop}{\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\dbch\af9\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+\~}{}}}\i\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+/\~}{{\field{\*\fldinst HYPERLINK "http://www.ithinkcloud.com/tags/ipython/" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\ul\ulc0\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+ipython}{\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\dbch\af9\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+\~}{}}}\i\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+/\~}{{\field{\*\fldinst HYPERLINK "http://www.ithinkcloud.com/tags/jupyter/" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\ul\ulc0\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+jupyter}{\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\dbch\af9\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+\~}{}}}\i\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+/\~}{{\field{\*\fldinst HYPERLINK "http://www.ithinkcloud.com/tags/notebook/" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\ul\ulc0\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+notebook}{\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\dbch\af9\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+\~}{}}}\i\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+/\~}{{\field{\*\fldinst HYPERLINK "http://www.ithinkcloud.com/tags/python/" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\ul\ulc0\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+python}{\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\dbch\af9\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+\~}{}}}\i\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+/\~}{{\field{\*\fldinst HYPERLINK "http://www.ithinkcloud.com/tags/spark/" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\ul\ulc0\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+spark}{\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\dbch\af9\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+\~}{}}}\i\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+/\~}{{\field{\*\fldinst HYPERLINK "http://www.ithinkcloud.com/tags/windows/" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\ul\ulc0\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+windows}{\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\dbch\af9\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+\~}{}}}\i\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+/\~}{{\field{\*\fldinst HYPERLINK "http://www.ithinkcloud.com/tags/winutils-exe/" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\ul\ulc0\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+winutils.exe}{\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\dbch\af9\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+\~}{}}}\i\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+by\~}{{\field{\*\fldinst HYPERLINK "http://www.ithinkcloud.com/author/abhinav/" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\i\ul\ulc0\dbch\af8\langfe1033\dbch\af9\afs18\alang1025\ai\rtlch \ltrch\loch\fs18\lang1033\loch\f6
+Abhinav}}}}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb450\sa450\dbch\af9\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+In this tutorial I will show you how\~I installed\~Apache Spark on windows and how I\~setup Ipython notebook to work with it.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+Before\~I\~begin with installing Spark, I have installed python. I used\~anaconda python distribution which has most number of popular python packages available. You can download the distribution from the below link:}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl300\slmult0\ql\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{{\field{\*\fldinst HYPERLINK "https://www.continuum.io/downloads" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf4\dbch\af8\langfe1033\dbch\af9\afs20\alang1025\rtlch \ltrch\loch\fs20\lang1033\loch\f6
+https://www.continuum.io/downloads}}}}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+I have downloaded Anaconda Python installer for version 3.5.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+Okay once I installed the anaconda, for the IDE I have chosen to use IPython.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+To install open the anaconda prompt, and enter the following command}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl300\slmult0\ql\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\cf4\dbch\af8\langfe1033\dbch\af9\afs20\alang1025\rtlch \ltrch\loch\fs20\lang1033\loch\f6
+c}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+Note if you already have ipython installed, you might want to update it using the following command}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl300\slmult0\ql\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\cf4\dbch\af8\langfe1033\dbch\af9\afs20\alang1025\rtlch \ltrch\loch\fs20\lang1033\loch\f6
+conda update jupyter}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+Now I have downloaded and installed spark from}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl300\slmult0\ql\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{{\field{\*\fldinst HYPERLINK "http://spark.apache.org/downloads.html" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf4\dbch\af8\langfe1033\dbch\af9\afs20\alang1025\rtlch \ltrch\loch\fs20\lang1033\loch\f6
+http://spark.apache.org/downloads.html}}}}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+I chose Spark 1.6.0 , package which was pre-built for hadoop 2.6 and later.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+After downloading it, I copied the file to the C:\\ drive and then unzipped it, then renamed the folder to spark. The following is the screenshot of the folder structure.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+I renamed the file\~log4j.properties.template in the conf directory to log4j.properties and then opened it in\~}{{\field{\*\fldinst HYPERLINK "https://notepad-plus-plus.org/download" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf2\ul\ulc0\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+notepad++}{}}}\dbch\af9\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+\~}{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+which is a nice and clean text editor, you can even use notepad.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150\ltrpar{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+I changed the line where it says}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl300\slmult0\ql\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\cf4\dbch\af8\langfe1033\dbch\af9\afs20\alang1025\rtlch \ltrch\loch\fs20\lang1033\loch\f6
+log4j.rootCategory=INFO, console}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+to}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl300\slmult0\ql\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\cf4\dbch\af8\langfe1033\dbch\af9\afs20\alang1025\rtlch \ltrch\loch\fs20\lang1033\loch\f6
+log4j.rootCategory=WARN, console}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+Doing this reduces the amount of ERROR messages which we see on the console, if you want to reduce even further you can change it to show only ERROR messages by changing it to}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl300\slmult0\ql\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\cf4\dbch\af8\langfe1033\dbch\af9\afs20\alang1025\rtlch \ltrch\loch\fs20\lang1033\loch\f6
+log4j.rootCategory=ERROR, console}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+after saving the file I have downloaded the hadoop binary file winutils.exe, even though Spark runs independently\~of Hadoop, there is a bug which searches for winutils.exe which is needed for hadoop,\~and throws up an error.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+I have download the file from the below mentioned link}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl300\slmult0\ql\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{{\field{\*\fldinst HYPERLINK "http://public-repo-1.hortonworks.com/hdp-win-alpha/winutils.exe" }{\fldrslt {\cf3\ul\ulc0\langfe255\alang255\lang255\cf4\dbch\af8\langfe1033\dbch\af9\afs20\alang1025\rtlch \ltrch\loch\fs20\lang1033\loch\f6
+http://public-repo-1.hortonworks.com/hdp-win-alpha/winutils.exe}}}}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+I have created a folder named winutils\~in c:\\ and created bin directory and placed the winutils.exe file in it. The file location is as follows.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl300\slmult0\ql\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\cf4\dbch\af8\langfe1033\dbch\af9\afs20\alang1025\rtlch \ltrch\loch\fs20\lang1033\loch\f6
+C:\\winutils\\bin\\winutils.exe}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+Now I have opened the system properties, and added the environment variables. You can open system properties by pressing WIN + R button which open\uc2 \u8217\'81\'66s up the run and enter\~sysdm.cpl\uc1 }
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+I then clicked on advanced tab and then on environment variables. Clicked\~new for the user variables and added the following}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl300\slmult0\ql\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\cf4\dbch\af8\langfe1033\dbch\af9\afs20\alang1025\rtlch \ltrch\loch\fs20\lang1033\loch\f6
+variable name as HADOOP_HOME \~and it's value as C:\\winutils}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl300\slmult0\ql\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\cf4\dbch\af8\langfe1033\dbch\af9\afs20\alang1025\rtlch \ltrch\loch\fs20\lang1033\loch\f6
+variable name as SPARK_HOME\~and it's value as C:\\spark}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+Also clicked on path variable and added $SPARK_HOME$\\bin at the endcmd}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+Now to launch the spark , I just opened the command prompt and entered pyspark to open the spark shell.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+Now, if you want to use IPython, set the below user variables to the environment variables in the system properties just like how HADOOP_HOME was set}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl300\slmult0\ql\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\cf4\dbch\af8\langfe1033\dbch\af9\afs20\alang1025\rtlch \ltrch\loch\fs20\lang1033\loch\f6
+variable name\~as\~PYSPARK_DRIVER_PYTHON \~and it's value as\~ipython}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl300\slmult0\ql\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\cf4\dbch\af8\langfe1033\dbch\af9\afs20\alang1025\rtlch \ltrch\loch\fs20\lang1033\loch\f6
+variable name as PYSPARK_DRIVER_PYTHON_OPTS and it's value as: notebook}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa150{\dbch\af8\langfe1033\dbch\af9\afs24\alang1025\rtlch \ltrch\loch\fs24\lang1033\loch\f6
+Now, when you launch the command prompt and enter pyspark, you will notice jupyter notebook being launched.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl252\slmult1\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa160\dbch\af10\langfe1033\dbch\af10\afs22\alang1025\rtlch \ltrch\loch\fs22\lang1033\loch\f6
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af7\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang16393\sl276\slmult1\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa200\rtlch \ltrch\loch
+
+\par }

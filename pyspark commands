@@ -1,0 +1,72 @@
+ctrl+alt+t - open the terminal.
+do we use flatmap after applying map? 
+- def toList(x):
+    tmpList = [x**2,x**3]
+    return tmpList
+
+toList(2)
+
+
+
+
+cube = nums.flatMap(toList)
+cube.collect()
+
+
+for flatmap inside function it should return list.and output of the flatmap should be list.
+for reducebykey it will give aggregate count.
+for groupbykey it will give a sequence(list,tuples)
+for sortbykey it will give an individual element.
+
+any name (file_rdd):
+
+file_rdd.collect()
+file_rdd.take()
+file_rdd.count()
+
+Return type of RDD is RDD
+
+json_rdd.map(lambda x: [(k,int(v)) for [k,v ] in x.items()][0]) - to convert dictionaries into tuple.
+creating rdd : sc.textFile(),sc.parallelize()
+
+time.time() - current time stamp
+
+Transformations:
+
+1. FlatMap()
+2. Map()
+3. ReduceByKey()
+4. GroupByKey()
+5. Filter()
+6. MapValues()
+
+Actions:
+
+1. take()
+2. collect()
+3. count()
+4. head()
+
+
+to create dataframe we use hive_context.jsonRDD
+
+
+to download packages just type python - import nltk 
+nltk download
+
+
+
+Counter supports three forms of initialization. Its constructor can be called with a sequence of items, a dictionary containing keys and counts, or using keyword arguments mapping string names to counts.
+
+import collections
+
+print collections.Counter(['a', 'b', 'c', 'a', 'b', 'b'])
+print collections.Counter({'a':2, 'b':3, 'c':1})
+print collections.Counter(a=2, b=3, c=1)
+
+##map is not working in py3. Below is the way to work with it.
+
+idf = [ (tup[0], math.log(float(total_docs)/ (1 + tup[1]))) for tup  in  doc_freq.collect()]
+
+
+explicitly creating broadcast variables is only useful when tasks across multiple stages need the same data or when caching the data in deserialized form is important.
